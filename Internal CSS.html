@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="fa">
+<html>
+	<head>
+
+		<title> my first CSS </title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Free Web tutorials">
+		<Meta name="keywords" content="HTML,CSS,XML,JavaScript">
+		<Meta name="author" content="Hege Refsnes">
+
+
+
+
+		 <style>
+
+
+		  .style{
+
+				color:green;
+	            font-size:40px;
+		  }
+
+		  .style2{
+
+				color:#FAFADC;
+				font-size:30px;
+				font-family:IRANYekan;
+				text-align:center;
+
+
+
+
+		  }
+		  .style-div2{
+
+				color:black;
+				font-size:60px;
+				font-weight:200;				/*میتونه از 100تا900باشه*/
+				font-family:Monotype Corsiva;
+				text-align:center;
+
+
+
+
+		  }
+
+
+		.container {
+		display: flex; /* استفاده از فلکس باکس برای قرار دادن بخش‌ها در یک ردیف */
+		justify-content: space-between; /* فاصله بین بخش‌ها */
+		align-items: flex-start; /* تراز کردن بخش‌ها از بالا */
+		margin-top: 50px; /* فاصله از بالا */
+		}
+
+		.div1-left, .div1-right {
+		color: black;
+		background-color: #FEF5F7;
+		text-align: center;
+		font-weight: 200; /* میتونه از 100 تا 900 باشه */
+		font-family: Monotype Corsiva;
+		height: 1000px;
+		width: 350px;
+		border: 2px solid #F2BEBF;
+		border-radius: 10px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		padding: 15px; /* فضای داخلی */
+		}
+
+		 .div1-center {
+		color: black;
+		background-color: #FEF5F7;
+		text-align: center;
+		font-weight: 200; /* میتونه از 100 تا 900 باشه */
+		font-family: Monotype Corsiva;
+		height: 1000px;
+		width: 700px;
+		border: 2px solid #F2BEBF;
+		border-radius: 10px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		padding: 15px; /* فضای داخلی */
+		}
+
+
+		.custom-fieldset {
+		width: 80%; /* عرض فیلدست */
+		height: auto; /* ارتفاع خودکار */
+		text-align: right; /* تراز راست */
+		margin: 0 auto; /* مرکز کردن فیلدست */
+		border: 2px solid #F2BEBF;
+		border-radius: 10px;
+		padding: 20px; /* فضای داخلی */
+		background-color: #FFFFFF; /* رنگ پس‌زمینه فیلدست */
+		}
+
+		.custom-fieldset legend {
+		font-size: 1.2em; /* اندازه فونت عنوان */
+		font-weight: bold; /* ضخامت فونت عنوان */
+		}
+
+		.custom-fieldset input[type="text"] {
+		width: 90%; /* عرض ورودی متن */
+		padding: 10px; /* فضای داخلی ورودی متن */
+		margin: 5px 0; /* فاصله بالا و پایین ورودی متن */
+		border: 1px solid #ccc; /* حاشیه ورودی متن */
+		border-radius: 5px; /* گرد کردن گوشه‌های ورودی متن */
+		}
+
+		.custom-fieldset input[type="submit"] {
+		background-color: #F2BEBF; /* رنگ پس‌زمینه دکمه */
+		color: white; /* رنگ متن دکمه */
+		padding: 10px 20px; /* فضای داخلی دکمه */
+		border: none; /* بدون حاشیه */
+		border-radius: 5px; /* گرد کردن گوشه‌های دکمه */
+		cursor: pointer; /* نشانگر موس به شکل دست */
+		}
+
+		.custom-fieldset input[type="submit"]:hover {
+		background-color: #E0A3A4; /* رنگ پس‌زمینه دکمه در حالت هاور */
+		}
+
+
+
+
+
+
+
+
+				header { background-color: #E75A5F; text-align: center; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: 100%; max-width: 1481px; /* حداکثر عرض */ min-width: 900px; /* حداقل عرض */ margin: 0 auto; /* مرکز کردن محتوا */ position: fixed; /* ثابت کردن هدر */ top: 0; /* قرار دادن هدر در بالای صفحه */ padding: 20px; /* فضای داخلی */ z-index: 1000; /* قرار دادن هدر در بالای سایر محتواها */ } nav { display: flex; justify-content: center; gap: 20px; }
+		  nav a { color: white; text-decoration: none; font-size: 18px; padding: 10px 20px; border-radius: 5px; transition: background-color 0.3s ease; } nav a:hover { background-color: rgba(255, 255, 255, 0.2); }
+
+
+		  body{
+				background-color:#FAF8F0;
+				width: 100%;
+				height: 100%;
+				max-width: 1600px; /* حداکثر عرض */
+				min-width: 900px; /* حداقل عرض */
+				margin:0px auto; /* مرکز کردن محتوا */
+				padding: 0px; /* فضای داخلی */
+
+			}
+
+
+
+
+		 .block-me{
+			display:block;
+
+		 }
+
+
+		.inline-me, inline-you{
+
+							display:inline-block;
+							height:20px;
+							width:50%;
+		}
+
+		 .not-me{
+
+				display: none;
+		 }
+
+
+		 .trimmed{
+
+				height:20px;
+				width:400px;
+				overflow:hidden;
+				border: 1px solid #000;
+		 }
+
+		 .scroll{
+				height:50px;
+				width:200px;
+				overflow:scroll;
+				border: 1px solid #000;
+		 }
+
+		 .auto-me{
+				height:40px;
+				width:200px;
+				overflow:auto;
+				border: 1px solid #000;
+		 }
+
+		 .visible-me{
+				height:40px;
+				width:200px;
+				overflow:visible;
+				border: 1px solid #000;
+		 }
+
+
+		 .hover-me:hover{
+					background-color:green;     				/*زمانی که موس رو روی  دگمه قرار می دهیم آن به رنگ سبز در این حالت تغییر میکند*/
+					cursor: pointer;
+
+		 }
+
+		 a:active{
+					color:yellow;     				/*روی لینک ها که کلیک میشود رنگشون زرد میشه*/
+
+		 }
+
+		 a:link{
+				color: red;
+
+		 }
+
+		 a:visited{
+
+		       color: ;                  /*زمانی که لینک ها باز میشوند یک باز دیگه به رنگ مشکی در میاند*/
+		 }
+
+
+
+		 </style>
+
+
+
+	</head>
+	<bady>
+<header>
+  <div style="max-width: 1200px; margin: auto;">
+    <h1 style="font-size: 2.5em; font-family:Calibri; margin: 0;">خیاطی مهر</h1>
+    <nav style="margin-top: 10px;">
+      <a href="#" style="margin: 0 15px; text-decoration: none; color: #333;">خانه</a>
+      <a href="#" style="margin: 0 15px; text-decoration: none; color: #333;">درباره ما</a>
+      <a href="#" style="margin: 0 15px; text-decoration: none; color: #333;">خدمات</a>
+      <a href="#" style="margin: 0 15px; text-decoration: none; color: #333;">تماس با ما</a>
+    </nav>
+  </div>
+</header>
+
+
+
+	 <div class="container">
+	 <div class="div1-left">
+
+	 <p class="style">
+	    این نحوه نوشتن سی اس اس درون خطی است
+	 </p>
+
+
+	 <p class="style">
+	 Mohammad mahdi shamsi
+	           <br>Meno</br>
+	 </p>
+	 </div>
+
+
+	 <div class="div1-center">
+	  <p>
+         <form>
+          <fieldset class="custom-fieldset">
+		   <legend align="right">اطلاعات شخصی</legend>
+		   <br><input type="text"> : نام و نام خانوادگی</br>
+		   <br><input type="text"> : ایمیل</br>
+		   <br><input type="submit" value="ورود"></br>
+		  </fieldset>
+		 </form>
+		</p>
+	 </div>
+
+
+	 <div class="div1-right">
+	  <p class="style-div2">Be Kind</p>
+
+	  <p>
+	   <input class="hover-me" type="button" value="Click"/>
+	  </p>
+
+	   <div>
+		<br>
+		 <acronym title="جوری دلبری کنم پیش دلت"><audio controls>
+		     <source src="https://dl.sevilmusics.com/cdn/music/srvre/Evan%20Band%20-%20Jori%20Delbari%20Konm%20Pish%20Delet%20[SevilMusic].mp3"type="audio/mp3">
+		 </audio></acronym>
+		</br>
+		<br>
+		 <acronym title="شماعی زاده"><audio controls>
+		  <source src="https://dl.sevilmusics.com/cdn/music/srvre/Ahange%20Ey%20Shakhe%20Poor%20Gole%20Ghashangam%20[SevilMusic].mp3"type="audio/mp3">
+		 </audio></acronym>
+		</br>
+	  </div>
+	 </div>
+	 </div>
+	  <p align="right">
+	  ksdjfhashfjsdfkhjsdfhhkfjhksdhfjhkjfdhiauykdvkjksuefdn
+	  </p>
+	 <span class="block-me">
+	  I need span.jsdabfjksajdfhjshdfjh
+	 </span>
+
+
+	 <div class="inline-me">
+	  Hey,I wish we were together.
+	 </div>
+
+	 <div class="inline-you">
+	  What's stopping you?
+	 </div>
+
+	 <div class="not-me">
+	  I didn't do anything.
+	 </div>
+
+	 <div class="trimmed">
+	  I know i am going to get slashed grom bottom but it's fine. Spmeone will save me. Hopes intact.
+	 </div>
+
+	 <P class="scroll">
+	  I know you would save me. Let's show the world what we are made of.
+	 </P>
+
+	 <P class="auto-me">
+	  I know you would save me. Let's show the world what we are made of.
+	 </P>
+
+	 <P class="visible-me">
+	  I know you would save me. Let's show the world what we are made of.
+	 </P>
+
+	 <p align="center">
+	  <a href="https://www.google.com/">Click me</a>
+	 </p>
+
+	 <p align="center">
+	  <a href="www.google.com/">Don't Click me</a>
+	 </p>
+
+	 <p align="center">
+	  <a href=":www.google.com/">Click</a>
+	 </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</bady>
+
+	<footer style="background-color: #f8f9fa; padding: 20px; text-align: center; border-top: 1px solid #e7e7e7;">
+  <div style="max-width: 1200px; margin: auto;">
+    <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+      <div style="flex: 1; min-width: 200px; margin: 10px;">
+        <h4>درباره ما</h4>
+        <p>ما یک تیم حرفه‌ای هستیم که به ارائه بهترین خدمات وب‌سایت متعهد هستیم.</p>
+      </div>
+      <div style="flex: 1; min-width: 200px; margin: 10px;">
+        <h4>تماس با ما</h4>
+        <p>ایمیل: info@example.com</p>
+        <p>تلفن: 123-456-7890</p>
+      </div>
+      <div style="flex: 1; min-width: 200px; margin: 10px;">
+        <h4>دنبال کنید</h4>
+        <a href="#" style="margin: 0 10px;">فیسبوک</a>
+        <a href="#" style="margin: 0 10px;">توییتر</a>
+        <a href="#" style="margin: 0 10px;">اینستاگرام</a>
+      </div>
+    </div>
+    <p style="margin-top: 20px;">© 2023 تمامی حقوق محفوظ است.</p>
+  </div>
+</footer>
+
+</html>
