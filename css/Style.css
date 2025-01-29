@@ -8,7 +8,7 @@
   background: #F7464E;
 }
 .nav div{
-  display: inline-block;
+  display: inline-block;    /*از این برای تغییر ستونی نوشته های به خطی کردنشون استفاده میشه*/
   position: absolute;
   left: 0;
   padding: 15px;
@@ -29,7 +29,7 @@
 .home .text-container{
   text-align: center;
   display: flex;
-  align-items: center;
+  align-items: center;    /*برای تراز کردن موارد در مرکز به صورت عمودی استفاده می کنیم*/
   justify-content: center;
   height: 90vh;
 }
