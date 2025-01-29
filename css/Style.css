@@ -1,9 +1,8 @@
 .home{
-  background: #F7F8F3
+  background: url("https://ghab24.com/movafaghiat/downloadfile?type=2&id=16fa2b0294e410b2551c3bf6965c0853");
   background-size: cover;
   height: 100vh;
 }
-
 .nav{
   height: 50px;
   background: #F7464E;
@@ -26,4 +25,11 @@
 .nav ul li a{
   color: white;
   padding: 5px;
+}
+.home .text-container{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
 }
