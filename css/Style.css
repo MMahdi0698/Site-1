@@ -33,6 +33,24 @@
   justify-content: center;
   height: 90vh;
 }
+.about.about-content{
+  margin: 150px auto 0 auto;
+  width: 500px;
+}
+.about-content h1{
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: red;
+}
+.about-content p{
+  text-align: justify;
+  font-family: "Lato", sans-serif;
+  color: green;
+}
+@import url("https://fonts.googleapis.com/css?family=Roboto")
+
+
+
 
 
 
