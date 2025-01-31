@@ -35,7 +35,7 @@
   justify-content: center;
   height: 90vh;
 }
-.about.about-content{
+.about .about-content{
   margin: 150px auto 0 auto;
   width: 500px;
 }
@@ -53,6 +53,26 @@
   margin: 80px auto 0 auto;
   text-align: center;
 }
+.services-content .card-container ul{
+  padding: 0;
+}
+.services-content .card-container ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
+  width: 300px;
+}
+.services-content .card-container ul li p{
+  text-align: justify;
+  font-family: "Lato", sans-serif;
+  color: green;
+}
+.services .services-content h1{
+  font-family: "Roboto", sans-serif;
+  color: red;
+}
+
+
 
 @import url("https://fonts.googleapis.com/css?family=Roboto")
 
