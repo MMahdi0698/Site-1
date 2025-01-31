@@ -6,6 +6,8 @@
 .nav{
   height: 50px;
   background: #F7464E;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .nav div{
   display: inline-block;    /*از این برای تغییر ستونی نوشته های به خطی کردنشون استفاده میشه*/
@@ -47,6 +49,11 @@
   font-family: "Lato", sans-serif;
   color: green;
 }
+.services .services-content{
+  margin: 80px auto 0 auto;
+  text-align: center;
+}
+
 @import url("https://fonts.googleapis.com/css?family=Roboto")
 
 
